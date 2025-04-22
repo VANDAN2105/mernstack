@@ -1,0 +1,64 @@
+.first{
+    background-color: rgba(41, 41, 87, 0.9);
+    height: 250px;
+    width: 250px;
+    border-radius: 30%;
+    
+}
+
+h1{
+    margin-left: 19%;
+    position: relative;
+    top: 20px;
+}
+
+
+.second{
+    background-color: rgb(78, 78, 212);
+    height: 250px;
+    width: 250px;
+    border-radius: 30%;
+    opacity: 0.5;
+}
+
+#btn1{
+    border-radius: 30%;
+    color: blanchedalmond;
+    background-color: aqua;
+    margin-left: 40%;
+   
+    }
+
+#btn{
+    border-radius: 30%;
+    color: blanchedalmond;
+    background-color: aqua;
+    
+
+}
+
+/* transition */
+
+.first:hover {
+    background-color: rgb(212, 78, 163);
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    transition: all 2s ease-in-out 0.5s; /* Smooth transition for both hover and release */
+}
+/* check types timing functions on mdn */
+
+
+.first:hover h1 {
+    position:relative;
+    top: 130px;
+    left: 20px; ;
+    transition: all 1s ease-in 0.5s;
+}
+
+#btn1:active .first:hover{
+    height: 400%;
+    width: 400%;
+    transition: all 2s ease-in-out 0.5s; /* Smooth transition for both hover and release */
+    background-color: rgb(35, 35, 44);
+}

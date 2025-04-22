@@ -1,0 +1,160 @@
+    /* first-latter*/
+
+    /* types of selectors */ 
+
+/* 1- universal selector*/
+body{
+    background-color: aliceblue;
+    font-family: 'Segoe UI';
+}
+*{
+    font-style: italic;
+    font-family: 'Segoe UI';
+}
+#head{
+   
+    
+    background-color: blanchedalmond;
+}
+
+#test1{
+    color: #f52936;
+    background-color: rgb(205, 207, 223);
+    border-radius: 45%;
+    margin-right: 1250px;
+}
+i{
+   color: blue;
+}
+
+
+/* 4-descendent selector */ 
+
+.name a{
+    color: #b65156;
+}
+
+p+h3{
+    font-style: italic;
+    color: cornflowerblue;
+}
+
+.upvote{
+    background-color: darkturquoise;
+    border-radius: 60%;
+}
+
+.upvote+button {
+    background-color: rgb(185, 107, 107);
+}
+
+footer p i{
+    color: #f52936;
+}
+
+b > a {
+    color: rgb(86, 33, 172);
+}
+input[type="password"]{
+    color: rgb(128, 128, 219);
+    background-color: rgb(54, 154, 242);
+    border-radius:17%;
+}
+input[type="text"]{
+    color: rgb(21, 152, 49);
+    background-color: rgb(96, 165, 188);
+    border-radius: 17%;
+
+}
+nav ul{
+    color: #f52936;
+}
+nav ul li a{
+    color: black;
+}
+footer p{
+    text-align: center;
+}
+fieldset{
+    text-align: center;
+    text-shadow: #f52936;
+}
+
+
+
+
+/* psudoclass properties*/
+/*
+  1 >hover
+  2>active
+  3>chacked
+  4> nth type 
+ */
+
+
+.upvote:hover{
+    background-color: black;
+    color: aquamarine;
+}
+.upvote+button:hover{
+    background-color: rgb(68, 51, 163);
+    color: rgb(255, 255, 255);
+}
+p+h3:hover{
+    text-decoration: underline;
+}
+button:active{
+    background-color: aliceblue;
+}/* only aplicable to sign and login because , for other buttons, we use id and class to implement properties*/
+.upvote+button:active{
+    background-color: rgb(251, 251, 251);
+}
+.upvote:active{
+    background-color: rgb(154, 154, 205);
+}
+i:active{
+    font-weight: bold;
+    color: rgb(165, 50, 40);
+}
+.follow:active{
+    color: chartreuse;
+}
+
+
+
+/* checked */
+input[type="radio"]:checked+label{
+    color: #f52936;
+    font-weight: bold;
+}
+
+/* nth of type */
+nav ul li:nth-of-type(odd){  /* we can write like 2n or 2n+1 */
+    background-color: #b1eeff;
+}
+
+div:nth-of-type(2n){
+    background-color: #93ddff;
+
+}
+div:nth-of-type(2n+1){
+    background-color: #fb93ff;
+
+}
+
+/* there are many psudo class available */
+
+/* first latter*/
+
+
+div:first-of-type p::first-letter{
+    color: aliceblue;
+}
+
+fieldset p:first-of-type::first-line{
+    color:#b1eeff;
+}
+
+/* id > class > element
+   remember: inline will get more specifity than file implementation of css in any element
+*/

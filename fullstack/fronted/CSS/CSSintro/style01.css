@@ -1,0 +1,9 @@
+input[type="text"]#txt {
+    color: rgb(128, 73, 0); /* Specify the color you want */
+    background-color: aqua;
+}
+
+button[type="submit"] {
+    color: green;
+    background-color: lightblue; /* Choose a light color for the background */
+}

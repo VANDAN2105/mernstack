@@ -1,0 +1,43 @@
+.box{
+    height: 200px;
+    width: 500px;
+    background-color: aqua;
+    border-width: 5px;
+    border-color: blueviolet;
+    border-style: double;
+    border-top-right-radius: 20%;
+    padding-top: 3%;
+}
+
+.box+div{
+    border: 2px dotted blue;
+    height: 200px;
+    width: 500px;
+    border-bottom: solid blue 5px;
+    border-radius: 25px;
+    /*shorthand*/
+    padding: 40px 0px 30px 20px;
+    border-radius: 20px 40px 60px 80px;
+}
+button{
+    border: 2px dotted purple;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: thistle;
+    
+}
+button:hover{
+    background-color: blueviolet;
+}
+button:active{
+    background-color: rgb(253, 253, 253);
+}
+
+/* try mdn border radius design from web*/
+
+.box{
+    margin-top: 4%;
+}
+.box+div{
+    margin-top: 50px;
+}

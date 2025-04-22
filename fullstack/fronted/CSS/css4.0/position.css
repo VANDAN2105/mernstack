@@ -1,0 +1,56 @@
+h1{
+    color: aqua;
+    text-align: center;
+    text-shadow: 10px 5px 5px blueviolet;
+    text-size-adjust: 20;
+}
+body{
+    background-color: black;
+}
+.card{
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    margin-top: 25px;
+    background-color: #153962;
+    border-radius: 25%;
+    border-style: solid;
+    margin-inline-end: 15px;
+    margin-bottom: 20px;
+    position: relative;
+    
+    
+}
+.img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 25px;
+    margin-top: 5px;
+    margin-left: 25px;
+
+}
+h3{
+    text-align: center;
+    color: #60B5FF;
+    text-shadow:1px 2px 2px #60B5FF;
+    position: relative;
+    bottom: 10px;
+}
+
+.card:hover{
+    box-shadow: 5px 2px 2px #60B5FF;
+    transition: all 2s ease-in-out;
+    transform: scale(2) translate(50px, 50px);
+    z-index: 10; /* Bring the hovered card above other cards */
+    .img{
+        position: relative;
+        top: 45px;
+        transition: all 2s ease-in-out;
+    }
+    h3{
+        position: relative;
+        bottom: 165px;
+        transition: all 2s ease-in-out;
+    }
+}

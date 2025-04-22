@@ -1,0 +1,65 @@
+body {
+    background-color: black;
+}
+*{
+    border-radius: 30%;
+}
+span {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px; /* Center text vertically */
+    margin: 10px; /* Add some spacing between spans */
+}
+span:nth-child(1){
+    background-color: rgb(76, 57, 27);
+}
+span:nth-child(2){
+    background-color: blanchedalmond;
+}
+span:nth-child(3){
+    display: block;
+    background-color: lightblue;
+}
+span:nth-child(4){
+    display: block;
+    background-color: rgb(21, 211, 21);
+}
+div{
+    margin-top: 30px;
+}
+
+/* transform */
+.first:hover{
+    transform: rotate(45deg);
+}
+
+/*
+The nth-child pseudo-class selects elements based on their position among all siblings, regardless of their class. Since the <span> with the class second is not the first child of the <div>, the selector .second:nth-child(1) fails. 
+*/
+span:nth-child(3):hover{
+    transform:translatex(100px);
+    transition: all 1s ease-in-out;
+    
+}
+#forth:hover{
+    color: white;
+    box-shadow: 3px 3px 8px purple;
+    transition: all 1s ease-in-out;
+    background-image: url(Century\ Age\ of\ Ashes\ 12.png);
+    background-size: cover;
+    background-position: center;
+}   
+
+
+/*
+  other properties
+    - scale: scale(1.5) -> 1.5 times the size of the element
+    - rotate: rotate(45deg) -> 45 degrees clockwise
+    - translate: translateX(100px) -> move 100px to the right
+    - skew: skew(20deg, 10deg) -> skew the element by 20 degrees on the x-axis and 10 degrees on the y-axis
+    - perspective: perspective(500px) -> set the perspective of the element to 500px
+    - matrix: matrix(1, 0, 0, 1, 0, 0) -> a 2D transformation matrix
+    search in mdn for more details
+*/

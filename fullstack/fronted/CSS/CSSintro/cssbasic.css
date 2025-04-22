@@ -1,0 +1,12 @@
+syntax : h {
+    color:blue;
+    bgcolor:red;
+}
+
+
+types of implementation of CSS
+1) inline style (directly in element)
+   <h1 style="color:black"> </h1>
+
+2)in heading
+3) using seperate file by link tag   

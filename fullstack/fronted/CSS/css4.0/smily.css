@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(232, 228, 228);
+}
+.smily{
+    background-color: rgb(92, 29, 29);
+    height: 150px;
+    width: 150px;
+    margin: 30px auto;
+    position: absolute;
+    left: 45%;
+    
+
+    
+}
+
+.circle{
+    background-color: yellow;
+    height: 140px;
+    width: 140px;
+    position: relative;
+    margin: 6px auto;
+    border-radius: 50%;
+    
+    
+    
+}
+.eye{
+
+    background-color: black;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    left: 33px;
+    top: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-inline-end: 30px;
+}
+.mouth{
+    height: 20px;
+    width: 60px;
+    background-color: rgb(67, 35, 155);
+    position: relative;
+    left: 41px;
+    top: 60px;
+    border-radius: 0% 0% 50% 50%;
+    
+    display: block;
+}

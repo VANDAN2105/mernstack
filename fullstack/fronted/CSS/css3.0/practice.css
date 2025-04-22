@@ -1,0 +1,72 @@
+.box{
+    border-style: double;
+    border-color: rgb(51, 36, 145);
+    margin-left: 45%;
+    margin-right: 48%;
+    
+}
+.bt{
+    
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-right: 50%;
+    
+}
+.one{
+    background-color: blue;
+}
+.two{
+    background-color: red;
+}
+.three{
+    background-color: green;
+}
+
+.spn{
+    border-style: solid;
+    border-color: royalblue;
+    margin-right: 36%;
+    margin-left: 40%;
+    height: 100px;
+    
+  
+}
+.bt1{
+    
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-left: 4%;
+   
+    
+}
+.first{
+    background-color: blue;
+}
+.second{
+    background-color: red;
+}
+.third{
+    background-color: green;
+}
+
+.box2{
+    background-color: aqua;
+    height: 100px;
+    display: inline-block;
+    width: 100px;
+}
+.pr{
+    background-color: blue;
+    height: 100px;
+    display: inline-block;
+    width: 100px;
+}
+
+/* for hover */
+
+.bt:hover{
+    display: block;
+    filter: drop-shadow(0 0 10px #61b2f0);
+}

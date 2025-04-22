@@ -1,0 +1,15 @@
+h1{
+    color:rgb(205, 193, 255);
+    background-color: black;
+}
+
+h4{
+    color: #d6e3f0;
+    background-color: blue;
+    text-decoration-line: overline;
+}
+
+input[type="button"]{
+       background-color: blue;
+       -webkit-text-fill-color: aliceblue;
+}
