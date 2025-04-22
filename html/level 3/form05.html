@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <div>
+            <label for="prof">choose your profession</label>
+            <select name="profession" id="prof">
+                
+                <option value="stu">student</option>
+                <option value="prof">professor</option>
+                <option value="tch" selected>teacher</option> <!--selected is used to make default value-->
+                <option value="principle">principle</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="range">select your range</label>
+            <input type="range" name="vol" id="range" min="0" max="100" step="10"> <!--range will increase in 10 intervel and value is used to make default ...-->
+        </div>
+
+        <div>
+            <label for="text">label for feedback</label>
+            <textarea name="textarea" id="text"></textarea>
+        </div>
+        <button type="submit">submit</button>
+    </form>
+</body>
+</html>
