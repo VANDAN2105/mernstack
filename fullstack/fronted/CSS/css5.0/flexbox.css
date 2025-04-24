@@ -1,0 +1,46 @@
+.img{
+    height: 200px;
+    width: 270px;
+}
+h1{
+    text-align: center;
+    color: #e67ab2;
+}
+legend{
+    text-align: center;
+}
+fieldset{
+     height: 400px;
+     width: 700px;
+     margin: auto;
+     background-color: #e67ab2;
+     display: flex;
+     
+     
+
+}
+div:nth-of-type(1){
+    background-color: purple;
+}
+div:nth-of-type(2){
+    background-color: green;
+}
+div:nth-of-type(3){
+    background-color: yellow;
+}
+div:nth-of-type(4){
+    background-color: red;
+}
+div:nth-of-type(5){
+    background-color: blue;
+}
+div:nth-of-type(6){
+    background-color: violet;
+}
+div{
+    height: 100px;
+    width: 300px;
+    text-align: center;
+    font-size: 1.5em;
+    
+}
