@@ -1,0 +1,30 @@
+.animation {
+    height: 300px;
+    width: 400px;
+    background-color: aquamarine;
+
+    /* animation-name, duration, timing-function, delay, iteration-count, direction */
+
+    animation: coloranimation 2s ease-in 0s infinite normal, fontanimation 2s ease-in 0s infinite normal; /*** animation-fill-mode: forwards, backwards, both, none, initial, inherit */
+}
+
+@keyframes fontanimation {
+    from {
+        font-size: 16px;
+    }
+    to {
+        font-size: 24px;
+    }
+}
+
+@keyframes coloranimation { /* % in animation */
+    0% {
+        background-color: aquamarine;
+    }
+    50% {
+        background-color: rgb(107, 94, 220);
+    }
+    100% {
+        background-color: rgb(253, 127, 255);
+    }
+}

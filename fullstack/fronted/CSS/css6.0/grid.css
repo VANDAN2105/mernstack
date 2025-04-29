@@ -1,0 +1,56 @@
+h1{
+    color: aqua;
+}
+
+.container{
+    display: grid;
+    background-color: indigo;
+    width: 600px;
+    height: 300px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px;
+    grid-template-columns: 100px 100px 100px;
+    
+}
+/*
+default axis in grid is column
+*/
+
+
+.item{
+    background-color: lightblue;
+    border: 1px solid black;
+    text-align: center;
+    height: 50px;
+    width: 100px;
+}
+
+.container2{
+    display: grid;
+    background-color: indigo;
+    width: 600px;
+    height: 300px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px;
+    grid-template-columns: auto auto auto;
+    
+}
+
+.container3{
+    display: grid;
+    background-color: indigo;
+    width: 600px;
+    height: 300px;
+    grid-template-rows: repeat(5,1fr);
+    grid-template-columns: repeat(4,1fr);
+    
+}
+
+.container4{
+    display: grid;
+    background-color: indigo;
+    width: 600px;
+    height: 400px;
+    grid-template-rows: repeat(5,1fr);
+    row-gap:10px ;
+    
+    
+}

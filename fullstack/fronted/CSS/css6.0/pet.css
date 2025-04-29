@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(50, 26, 72);
+}
+
+.container {
+    height: 400px;
+    width: 350px;
+    border: 2px solid rgb(200, 29, 230);
+    border-radius: 20px;
+    margin-top: 10%;
+    
+    color: aqua;
+    overflow: hidden;
+    display: inline-block;
+    flex-wrap: wrap;
+}
+
+.img{
+    height: 200px;
+    width: 330px;
+    border-radius: 20px;
+    object-fit: cover;
+    padding-top: 5px;
+    padding-left: 8px;
+    padding-right: 5px;
+}
+a {
+    color: aqua; /* Change this to your desired color */
+    text-decoration: none; /* Optional: Removes the underline */
+}
+h1{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 20px;
+    color: white;
+}
+h2{
+    text-align: center;
+}
+
+
+.dog {
+    margin-right: 100px; /* Add space to the right of the first container */
+    margin-left: 27%;
+}
+
