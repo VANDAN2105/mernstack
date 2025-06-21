@@ -1,0 +1,25 @@
+.container{
+    width: 95%;
+}
+.btn.btn-warning
+{
+    background-color: #56f04e;
+}
+
+.badge.text-bg-secondary {
+    background-color: #193a17 !important;
+    color: #fff !important;
+}
+
+.alert.text-bg-primary{
+    background-color: rgb(68, 140, 240 ,0.5) !important;
+    display: inline-block;
+    
+}
+
+.btn-close{
+    margin-left:95%;
+    position: absolute;
+    top:17px;
+    right: 50px;
+}
