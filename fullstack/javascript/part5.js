@@ -60,3 +60,30 @@ const classes = [
      {}
 ]
 console.log(classes[0].name);
+
+//random number 
+let i=Math.random();
+console.log(i);
+
+// write a code in which you ask a user for any max number and then print a random number and ask user to guess the random number until user guess write random number
+// random number should between 0 to max number (included)
+let max = prompt("enter the maximum number");
+
+let num = Math.floor(Math.random()*max ) +1;
+
+let guess = prompt("guess the number");
+while((num != guess)&& (guess!="quit")){
+    console.log("wrong , pls try again");
+    guess = prompt("guess the number again");
+
+}
+
+if(guess==num){
+    console.log("congrats");
+}
+else if(guess=="quit"){
+    console.log("you quit");
+}
+else{
+    console.log("wrong input");
+}
